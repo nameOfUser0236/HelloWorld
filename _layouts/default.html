@@ -1,10 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-  </head>
+{% include header.html%}
   <body>
     <nav>
       <a href="/">Home</a>
@@ -16,8 +10,4 @@
       {{ content }}
       </p>
     </section>
-    <footer>
-      &copy; to me
-    </footer>
-  </body>
-</html>
+{% include footer.html%}
