@@ -1,1 +1,2 @@
-exclude: app.json
+exclude: 
+  -app.json
