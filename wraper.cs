@@ -13,7 +13,7 @@ namespace
 		
 		public int Fun(float z)
 		{
-			return 7 + z * 29.64294;
+			return 7 + z * 29.64294;//update
 		}
 	}
 }
